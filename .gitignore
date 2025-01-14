@@ -1,0 +1,4 @@
+setup-touchid
+.DS_Store
+*.exe
+dist/
