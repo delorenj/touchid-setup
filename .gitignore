@@ -1,4 +1,14 @@
-setup-touchid
+# Ignore compiled binaries
+touchymcrootface-darwin-arm64
+touchymcrootface-darwin-amd64
+touchymcrootface
+
+# Common macOS files
 .DS_Store
-*.exe
-dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# Local development files
+setup-touchid
