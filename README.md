@@ -1,13 +1,13 @@
-# TouchID Sudo Setup
+# Touchymcrootface
 
-A beautiful CLI tool to enable Touch ID authentication for sudo commands on macOS.
+A pretty neat CLI tool to enable Touch ID authentication for sudo commands on macOS.
 
 ![Demo Screenshot](./demo.png)
 
 ## Features
 
 - 🔐 Enable Touch ID for sudo authentication
-- 🪄 Beautiful CLI interface using [Charm](https://charm.sh) libraries
+- 🪄 CLI interface using [Charm](https://charm.sh) libraries
 - 🔄 Automatic backup of original configuration
 - ✨ Easy to revert changes
 
@@ -16,17 +16,17 @@ A beautiful CLI tool to enable Touch ID authentication for sudo commands on macO
 ### Using Homebrew
 
 ```bash
-brew install jarad/tap/touchid-sudo
+brew install delorenj/tap/touchymcrootface
 ```
 
 ### Manual Installation
 
-Download the latest release from the [releases page](https://github.com/jarad/touchid-setup/releases).
+Download the latest release from the [releases page](https://github.com/delorenj/touchymcrootface/releases).
 
 Or install directly using:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/jarad/touchid-setup/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/delorenj/touchymcrootface/main/install.sh | bash
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ curl -sSL https://raw.githubusercontent.com/jarad/touchid-setup/main/install.sh 
 Simply run:
 
 ```bash
-touchid-setup
+touchymcrootface
 ```
 
 Follow the interactive prompts to enable Touch ID for sudo.
@@ -67,7 +67,7 @@ sudo mv /etc/pam.d/sudo.bak /etc/pam.d/sudo
 To build from source:
 
 ```bash
-git clone https://github.com/jarad/touchid-setup.git
+git clone https://github.com/delorenj/touchid-setup.git
 cd touchid-setup
 ./build.sh
 ```
