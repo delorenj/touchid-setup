@@ -23,7 +23,7 @@ var (
 
 func main() {
 	// Welcome message
-	fmt.Println(style.Render("🔐 Touchymcrootface Setup"))
+	fmt.Println(style.Render("🔐 TouchyMcRootFace Setup"))
 	fmt.Println()
 
 	// Check if running on macOS
@@ -92,12 +92,12 @@ session    required       pam_permit.so
 
 	cmd := exec.Command("sudo", "-K")
 	cmd.Run()
-	cmd = exec.Command("sudo", "echo", "Touchymcrootface is working!")
+	cmd = exec.Command("sudo", "echo", "TouchyMcRootFace is working!")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	cmd.Run()
 
-	fmt.Println(style.Render("\n✨ Setup complete! You can now use Touchymcrootface for sudo commands"))
+	fmt.Println(style.Render("\n✨ Setup complete! You can now use TouchyMcRootFace for sudo commands"))
 	fmt.Println("\nTo revert changes:")
 	fmt.Printf("sudo mv %s /etc/pam.d/sudo\n", backupPath)
 }

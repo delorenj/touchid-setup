@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🔐 Installing Touchymcrootface..."
+echo "🔐 Installing touchymcrootface..."
 
 # Determine installation directory
 INSTALL_DIR="$HOME/.local/bin"
@@ -24,4 +24,4 @@ if [[ ":$PATH:" != *":$INSTALL_DIR:"* ]]; then
     export PATH="$INSTALL_DIR:$PATH"
 fi
 
-echo "✨ Installation complete! Run 'touchymcrootface' to configure Touchymcrootface"
+echo "✨ Installation complete! Run 'touchymcrootface' to configure touchymcrootface"

@@ -2,7 +2,7 @@
 set -e
 
 # Configuration
-VERSION="v0.1.0"
+VERSION="v1.0.0"
 REPO="delorenj/touchymcrootface"
 FORMULA_PATH="../touchymcrootface-tap/Formula/touchymcrootface.rb"
 BINARIES_DIR="."
@@ -32,4 +32,4 @@ echo "Next steps:"
 echo "1. Commit and push the formula changes"
 echo "2. Create a GitHub release with version $VERSION"
 echo "3. Upload the binary files to the release"
-echo "4. Test with: brew install delorenj/touchymcrootface/touchymcrootface"
+echo "4. Test with: brew install delorenj/touchymcrootface"

@@ -8,7 +8,7 @@ go get github.com/charmbracelet/bubbletea
 go get github.com/charmbracelet/huh
 go get github.com/charmbracelet/lipgloss
 
-echo "📦 Building setup-touchymcrootface..."
-go build -o setup-touchymcrootface setup-touchymcrootface.go
+echo "📦 Building touchymcrootface..."
+go build -o touchymcrootface touchymcrootface.go
 
-echo "✨ Done! Run ./setup-touchymcrootface to configure Touchymcrootface"
+echo "✨ Done! Run ./touchymcrootface to configure touchymcrootface"

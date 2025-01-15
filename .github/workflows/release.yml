@@ -23,8 +23,8 @@ jobs:
         run: |
           mkdir -p dist
           # Build for both Intel and Apple Silicon
-          GOOS=darwin GOARCH=amd64 go build -o dist/touchid-setup-darwin-amd64 ./cmd/touchid-setup
-          GOOS=darwin GOARCH=arm64 go build -o dist/touchid-setup-darwin-arm64 ./cmd/touchid-setup
+          GOOS=darwin GOARCH=amd64 go build -o dist/touchymcrootface-darwin-amd64 ./cmd/touchymcrootface
+          GOOS=darwin GOARCH=arm64 go build -o dist/touchymcrootface-darwin-arm64 ./cmd/touchymcrootface
           # Make executables
           chmod +x dist/*
           
@@ -32,8 +32,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            dist/touchid-setup-darwin-amd64
-            dist/touchid-setup-darwin-arm64
+            dist/touchymcrootface-darwin-amd64
+            dist/touchymcrootface-darwin-arm64
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

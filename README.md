@@ -1,4 +1,4 @@
-# Touchymcrootface
+# touchymcrootface
 
 A pretty neat CLI tool to enable Touch ID authentication for sudo commands on macOS.
 
